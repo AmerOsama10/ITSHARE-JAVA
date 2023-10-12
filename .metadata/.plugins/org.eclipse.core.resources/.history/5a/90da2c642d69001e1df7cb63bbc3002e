@@ -1,0 +1,22 @@
+package com.itshare.spring.app;
+
+import com.itshare.spring.coach.BaseballCoach;
+import com.itshare.spring.coach.Coach;
+
+// just normal way without spring
+// tightly coupled
+
+public class NoSpringApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// create the object
+		Coach coach = new BaseballCoach();
+		
+		// use the object
+		System.out.println(coach.getDailyWorkout());
+		
+	}
+
+}

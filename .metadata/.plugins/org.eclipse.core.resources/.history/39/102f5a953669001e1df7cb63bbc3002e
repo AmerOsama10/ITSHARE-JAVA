@@ -1,0 +1,39 @@
+
+package com.itshare.spring.coach;
+
+//constructor injection
+//scope of the bean [ singleton - prototype]
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import com.itshare.spring.message.MessageService;
+
+
+@Component
+public class TennisCoachError implements Coach {
+	private MessageService message;
+
+	public TennisCoachError() {
+		System.err.println("TennisCoach - no args constructor ");
+	}
+
+	//@Autowired
+	public TennisCoachError( MessageService message) {
+		System.err.println("TennisCoach - with MessageService constructor ");
+		this.message = message;
+	}
+
+	@Override
+	public String getDailyWorkOut() {
+		return "Practice your backhand volly";
+	}
+
+	@Override
+	public String getMessage() {
+
+		return message.getMessage();
+	}
+
+}
