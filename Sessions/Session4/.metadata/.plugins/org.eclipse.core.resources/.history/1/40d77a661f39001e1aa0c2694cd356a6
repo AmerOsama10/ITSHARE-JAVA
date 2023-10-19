@@ -1,0 +1,23 @@
+package com.itshare.datastructure.arraylist;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		
+		ArrayList object = new ArrayList();
+		object.add(1);
+		object.add(50);
+		object.add(100);
+		object.add(13);
+		
+		
+		for(int x : object) {
+			System.out.println(x);
+		}
+
+
+	}
+}

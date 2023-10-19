@@ -1,0 +1,57 @@
+package com.itshare.oop.anonymous;
+
+public class Main {
+
+	
+	public static void main (String[] args) {
+		
+		
+	Employee java = new Employee() {
+		
+		
+		public int bonus() {
+			
+			return 2000;
+		}
+
+		public String displayDepartment() {
+			
+			return "Java Developers";
+		}
+
+		public int basicSalary() {
+			// TODO Auto-generated method stub
+			return 1000;
+		}
+	};
+	
+	
+	
+	System.out.println(java.basicSalary());
+	System.out.println(java.bonus());
+	System.out.println(java.displayDepartment());
+	
+	
+	
+	Employee cyber = new Employee() {
+		
+		
+		public int bonus() {
+			
+			return 5000;
+		}
+
+		public String displayDepartment() {
+			
+			return "Cyber Security";
+		}
+
+		public int basicSalary() {
+			// TODO Auto-generated method stub
+			return 1000;
+		}
+	};
+	
+	
+	}
+}

@@ -1,0 +1,22 @@
+package com.itshare.oop.abstractions.interfaces;
+
+public class JavaDevelopers implements Employee {
+
+	
+	int bonus() {
+		
+		return 2000;
+	}
+
+	String displayDepartment() {
+		
+		return "Java Developers";
+	}
+
+	@Override
+	public int basicSalary() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

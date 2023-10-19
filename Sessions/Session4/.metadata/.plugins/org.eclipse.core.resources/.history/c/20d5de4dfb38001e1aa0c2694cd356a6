@@ -1,0 +1,31 @@
+package com.itshare.exceptions.example3;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+
+		
+		String name=null ;
+
+		try {	
+		System.out.println(name.length());
+
+		System.out.println(10/0);
+		
+		
+		}
+		
+		
+		catch (Exception e) {
+			System.out.println("error handled");
+		}
+		
+	
+		
+	
+		
+		
+		
+	}
+
+}

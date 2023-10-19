@@ -1,0 +1,14 @@
+package com.itshare.files.creation;
+
+import java.io.File;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		File object = new File("D:\\work space\\Session4\\Files\\src\\com\\itshare\\files\\creation\\mohamed.txt");
+		
+		
+	}
+
+}

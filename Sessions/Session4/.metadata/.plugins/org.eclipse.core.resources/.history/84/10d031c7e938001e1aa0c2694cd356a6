@@ -1,0 +1,5 @@
+package com.itshare.oop.abstractions.abstracts;
+
+public class CyberSecurity {
+
+}

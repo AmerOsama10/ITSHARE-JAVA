@@ -1,0 +1,26 @@
+package com.itshare.datastructure.arraylist;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		
+		ArrayList list = new ArrayList();
+		list.add(1);
+		list.add(1);
+		list.add(1);
+		list.add(13);
+		list.add("ahmed");
+		list.add(8.8);
+		
+		
+		list.remove(3);
+		
+		
+	System.out.println(list);
+
+
+	}
+}

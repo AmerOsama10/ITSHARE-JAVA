@@ -1,0 +1,15 @@
+package com.itshare.oop.abstractions.interfaces;
+
+public class CyberSecurity implements Employee {
+
+	int bonus() {
+		// TODO Auto-generated method stub
+		return 5000;
+	}
+
+	String displayDepartment() {
+		// TODO Auto-generated method stub
+		return "cyber security";
+	}
+
+}

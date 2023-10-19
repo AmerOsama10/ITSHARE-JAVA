@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.itshare.datastructure.arrays&apos; to &apos;Ds/src/com.itshare.datastructure.arrays&apos;&#x0D;&#x0A;- Original project: &apos;Ds&apos;&#x0D;&#x0A;- Destination element: &apos;Ds/src/com.itshare.datastructure.arrays&apos;&#x0D;&#x0A;- Original element: &apos;Ds/src/com.itshare.datastructure.arrays&apos;" description="Copy package" destination="/src&lt;com.itshare.datastructure.arrays" element1="/src&lt;com.itshare.datastructure.arrays" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1691851450339" version="1.0"/>
+</session>

@@ -1,0 +1,23 @@
+package com.itshare.files.task;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		
+		// create file 
+		
+		//take inputs from console
+		
+		//store/write inputs to the file
+		
+		//read data from file
+		
+		
+	}
+
+}

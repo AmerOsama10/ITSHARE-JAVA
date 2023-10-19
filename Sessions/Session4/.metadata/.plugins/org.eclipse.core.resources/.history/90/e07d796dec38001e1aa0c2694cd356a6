@@ -1,0 +1,21 @@
+package com.itshare.oop.anonymous;
+
+public class CyberSecurity implements Employee {
+
+	public int bonus() {
+		// TODO Auto-generated method stub
+		return 5000;
+	}
+
+	public String displayDepartment() {
+		// TODO Auto-generated method stub
+		return "cyber security";
+	}
+
+	@Override
+	public int basicSalary() {
+		// TODO Auto-generated method stub
+		return 1000;
+	}
+
+}

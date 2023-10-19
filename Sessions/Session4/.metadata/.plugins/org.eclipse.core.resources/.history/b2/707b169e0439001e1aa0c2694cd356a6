@@ -1,0 +1,22 @@
+package com.itshare.exceptions.example4;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		try {
+
+			Calculator cal = new Calculator();
+			int x = cal.divide(2000, 2000);
+			System.out.println(x);
+		
+		
+		}
+
+		catch (Exception ex) {
+			System.out.println("errrrrrrrrrror : "+ ex.getMessage());
+		}
+
+	}
+
+}

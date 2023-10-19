@@ -1,0 +1,14 @@
+package com.itshare.datastructure.arraylist;
+
+import java.util.ArrayList;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		
+		ArrayList object = new ArrayList();
+		
+
+	}
+}

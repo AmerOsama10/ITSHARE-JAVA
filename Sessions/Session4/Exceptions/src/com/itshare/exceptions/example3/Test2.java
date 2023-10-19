@@ -1,0 +1,42 @@
+package com.itshare.exceptions.example3;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+
+		
+		String name=null ;
+
+		try {	
+			
+			System.out.println(name.length());
+
+			System.out.println(10/0);
+
+
+		
+		
+		}
+		
+		
+		
+		catch (ArithmeticException e) {
+			
+			System.out.println("error handled from type arthmetic");
+			System.out.println(10/1);
+		}
+		
+	
+		
+		catch (NullPointerException e) {
+			System.out.println("error handle from type Null pointer");
+			name="ahmed";
+			System.out.println(name.length());
+
+		}
+		
+		
+		
+	}
+
+}

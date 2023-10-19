@@ -1,0 +1,22 @@
+package com.itshare.datastructure.arrays;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		
+		
+		int x =10;
+		int x2=20;
+		int x3=30;
+		int x4=40;
+		
+		
+		int[] array = new int[5];
+		array[0]=1;
+		array[1]=100;
+		array[2]=100;
+		array[3]=100;
+		array[4]=100;
+	}
+}

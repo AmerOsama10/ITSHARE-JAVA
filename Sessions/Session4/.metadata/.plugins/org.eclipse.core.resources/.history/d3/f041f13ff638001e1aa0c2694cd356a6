@@ -1,0 +1,5 @@
+package com.itshare.exceptions.example2;
+
+public class Calculator {
+
+}

@@ -1,0 +1,24 @@
+package com.itshare.files.read;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+
+			
+		Scanner scan = new Scanner(System.in);
+		System.out.println("please enter your name");
+		boolean name = scan.nextLine();
+		
+		
+		System.out.println(name);
+		
+		
+	}
+
+}

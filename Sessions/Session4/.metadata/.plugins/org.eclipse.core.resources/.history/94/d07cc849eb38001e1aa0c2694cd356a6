@@ -1,0 +1,17 @@
+package com.itshare.oop.abstractions.interfaces;
+
+public class CyberSecurity extends Employee {
+
+	@Override
+	int bonus() {
+		// TODO Auto-generated method stub
+		return 5000;
+	}
+
+	@Override
+	String displayDepartment() {
+		// TODO Auto-generated method stub
+		return "cyber security";
+	}
+
+}

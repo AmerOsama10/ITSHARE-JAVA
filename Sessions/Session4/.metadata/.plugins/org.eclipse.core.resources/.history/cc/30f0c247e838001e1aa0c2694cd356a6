@@ -1,0 +1,19 @@
+package com.itshare.oop.abstractions.abstracts;
+
+
+// partially abstraction
+public abstract class Employee {
+
+	int basicSalary(){
+		
+		return 1000;
+	}
+	
+	
+	abstract int bonus();
+	
+	abstract String displayDepartment();
+	
+	
+	
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.itshare.functions.Calculator"/>
+    <fullyQualifiedTypeName name="com.itshare.oop.abstractions.abstracts.Employee"/>
+    <fullyQualifiedTypeName name="com.itshare.oop.abstractions.abstracts.CyberSecurity"/>
+    <fullyQualifiedTypeName name="com.itshare.oop.anonymous.Employee"/>
+    <fullyQualifiedTypeName name="java.nio.file.FileAlreadyExistsException"/>
+    <fullyQualifiedTypeName name="com.itshare.exceptions.example2.Calculator"/>
+    <fullyQualifiedTypeName name="com.itshare.oop.functions.Calculator"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.itshare.files.creation.Test"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

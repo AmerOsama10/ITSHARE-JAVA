@@ -1,0 +1,19 @@
+package com.itshare.exceptions.example1;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num1= 10;
+		int num2= 0;
+		
+		
+		if(num2 == 0) {
+			System.out.println("error");
+		}else
+			System.out.println(num1/num2);
+		
+	}
+
+}

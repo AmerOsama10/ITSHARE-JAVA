@@ -1,0 +1,42 @@
+package com.itshare.functions;
+
+public class Calculator {
+
+	
+	public static int sum(int num1 ,int num2) {
+		
+		return num1+num2;
+	}
+	
+	
+	public static int sub(int num1 ,int num2) {
+		
+		
+		return num1-num2;
+	}
+	
+	public static int div(int num1 ,int num2) {
+		
+		
+		return num1/num2;
+	}
+	
+	public static int mul(int num1 ,int num2) {
+		
+		
+		return num1*num2;
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+	
+		System.out.println(sum(1,2));
+		System.out.println(sub(1,2));
+		System.out.println(div(1,2));
+		
+		System.out.println(mul(1,2));
+	}
+}

@@ -1,0 +1,26 @@
+package com.itshare.files.write;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		//File file = new File("");
+		try {
+			FileWriter object = new FileWriter("D:\\work space\\Session4\\Files\\src\\com\\itshare\\files\\creation\\ahmed.txt");
+			object.write("amer osama");
+			
+			
+			
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+}
