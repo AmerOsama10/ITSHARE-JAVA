@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\No.11 [NTFS Local Disk]\ Root Dir\book store\ITShare\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1055004203.index
+2401446538.index
+1511014956.index
+1040075179.index
+1738355424.index
+2112329790.index

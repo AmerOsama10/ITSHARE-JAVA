@@ -1,0 +1,50 @@
+package com.itshare.spring.boot.mvc.validation.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import jakarta.validation.Valid;
+
+@Controller
+public class CustomerController {
+
+	
+	@GetMapping("/showForm")
+	public String showForm(Model model) {
+		
+		Customer customer = new Customer();
+		model.addAttribute("customer",customer);
+		return "customer-form";
+	}
+
+	
+//	//valid == tell spring mvc to perform validation
+//	//binding result === the results of the validation
+//	@PostMapping("/processForm")
+//	public String processForm(@Valid@ModelAttribute("customer") Customer customer ,BindingResult bind) {
+//	
+//		if(bind.hasErrors())
+//		return "customer-form";
+//		else
+//		return "confirm-form";
+//	}
+	
+	
+	@PostMapping("/processForm")
+	public String processForm(@Valid @ModelAttribute("customer") Customer customer, BindingResult bind, RedirectAttributes redirectAttributes) {
+	    if (bind.hasErrors()) {
+	        // Store the errors as flash attributes for the next request
+	        redirectAttributes.addFlashAttribute("org.springframework.validation.BindingResult.customer", bind);
+	        redirectAttributes.addFlashAttribute("customer", customer);
+	        return "redirect:/showForm"; // Redirect back to the showForm endpoint
+	    } else {
+	        return "confirm-form";
+	    }
+	}
+
+}

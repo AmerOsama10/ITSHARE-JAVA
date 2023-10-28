@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>hello page</title>
+</head>
+
+<body>
+
+	<span th:text="'body name is  : '+${student.firstName}"      ></span><br>
+	<span th:text="'body name is  : '+${student.lastName}"      ></span><br>
+
+
+	
+
+
+</body>
+</html>

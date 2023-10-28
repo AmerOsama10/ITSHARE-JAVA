@@ -1,0 +1,19 @@
+package com.itshare.spring.boot.mvc.validation.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class CustomerController {
+
+	
+	@GetMapping("/")
+	public String showForm(Model model) {
+		
+		Customer customer = new Customer();
+		model.addAttribute("customer",customer);
+		return "customer-form";
+	}
+	
+}

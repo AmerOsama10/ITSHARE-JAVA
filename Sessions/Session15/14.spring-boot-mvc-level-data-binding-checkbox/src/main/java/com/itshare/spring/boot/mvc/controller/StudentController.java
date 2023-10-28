@@ -1,0 +1,46 @@
+package com.itshare.spring.boot.mvc.controller;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import com.itshare.spring.boot.mvc.model.Student;
+
+
+@Controller
+public class StudentController{
+	
+	@RequestMapping("/showStudentForm")
+	public String showForm(Model model) {
+	
+		 // create a student object
+        Student theStudent = new Student();
+
+        // add student object to the model
+        model.addAttribute("student", theStudent);
+
+      
+		return "student-form";
+	}
+	
+
+	
+
+	@PostMapping(path="/processForm")
+	public String processForm(@ModelAttribute("student") Student student ) {
+	
+		System.err.println(student.getFirstName());
+		System.err.println(student.getLastName());
+		System.err.println(student.getCountry());
+		System.err.println(student.getLanguage());
+		System.err.println(student.getOperatingSystem());
+
+		return "confirm-form";
+	}
+	
+	
+
+	
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>hello page</title>
+</head>
+
+<body>
+
+<span th:text="'First name is  : '+${customer.firstName}"      ></span><br>
+<span th:text="'Last name is  : '+${customer.lastName}"      ></span><br>
+</body>
+</html>

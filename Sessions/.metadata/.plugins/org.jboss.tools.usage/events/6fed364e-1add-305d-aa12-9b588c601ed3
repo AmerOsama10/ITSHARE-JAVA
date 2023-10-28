@@ -1,0 +1,11 @@
+#Tue Oct 24 14:01:11 EEST 2023
+ct=jbt
+a=finishWizard
+c=0
+s=2
+d=1698145271267
+v=2.3.0
+vl=How many times the 'Finish' button pressed during the day
+cmp=usage
+cl=org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard
+l=Wizard class name

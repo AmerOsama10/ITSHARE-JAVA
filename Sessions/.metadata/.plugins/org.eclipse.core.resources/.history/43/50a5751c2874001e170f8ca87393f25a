@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>hello page</title>
+</head>
+
+<body>
+
+<form th:action="@{/processForm}" method="POST" th:object="${student}">
+	
+		First name: <input type="text" th:field="*{firstName}"  /><br><br>
+		First name: <input type="text" th:field="*{lastName}"  /><br><br>
+		Country:
+
+<!-- field : in Student field -->
+<!-- each : in model (countries) -->
+<!-- value : element in list , its value -->
+<!-- text : element in list to display it to user -->
+
+    <select th:field="*{country}">
+
+        <option th:each="tempCountry : ${countries}" 
+        		th:value="${tempCountry}" 
+        		th:text="${tempCountry}" />
+
+    </select>
+
+    <br><br>      
+		<input type="submit" value="submit"	/>
+
+	</form>
+
+
+
+</body>
+</html>

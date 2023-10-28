@@ -1,0 +1,35 @@
+package com.itshare.spring.boot.mvc.validation.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+import com.itshare.spring.boot.mvc.model.Student;
+
+@Controller
+public class CustomerController {
+
+	
+	@GetMapping("/")
+	public String showForm(Model model) {
+		
+		Customer customer = new Customer();
+		model.addAttribute("customer",customer);
+		return "customer-form";
+	}
+
+	
+	@PostMapping(path="/processForm")
+	public String processForm(@ModelAttribute("student") Student student ) {
+	
+		System.err.println(student.getFirstName());
+		System.err.println(student.getLastName());
+		System.err.println(student.getCountry());
+		System.err.println(student.getLanguage());
+		System.err.println(student.getOperatingSystem());
+
+		return "confirm-form";
+	}
+}

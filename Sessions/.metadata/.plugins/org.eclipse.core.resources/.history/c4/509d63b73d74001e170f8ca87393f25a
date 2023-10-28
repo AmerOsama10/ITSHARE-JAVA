@@ -1,0 +1,14 @@
+package com.itshare.spring.boot.mvc.validation.controller;
+
+import org.springframework.ui.Model;
+
+public class CustomerController {
+
+	public String showForm(Model model) {
+		
+		Customer customer = new Customer();
+		model.addAttribute("customer",customer);
+		return "customer-form";
+	}
+	
+}

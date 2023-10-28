@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>hello page</title>
+</head>
+
+<body>
+
+First name<span th:text="'body name is  : '+${student.firstName}"      ></span><br>
+Last name<span th:text="'body name is  : '+${student.lastName}"      ></span><br>
+Country: <span th:text="${student.country}"  ></span><br>
+Language: <span th:text="${student.language}"  ></span><br>
+Operating System:
+<ul>
+	<li th:each="tempOS :${student.operatingSystem}" th:text="${tempOS}" />
+</ul>
+
+</body>
+</html>

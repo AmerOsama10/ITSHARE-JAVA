@@ -1,0 +1,13 @@
+package com.itshare.spring.boot.mvc.validation.controller;
+
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Size;
+
+public class Customer {
+
+	private String firstName;
+
+	@Size(min=1,message="is required")
+	private String lastName;
+	
+}

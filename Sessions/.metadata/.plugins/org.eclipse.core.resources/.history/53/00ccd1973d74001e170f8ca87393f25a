@@ -1,0 +1,5 @@
+package com.itshare.spring.boot.mvc.validation.controller;
+
+public class Customer {
+
+}
