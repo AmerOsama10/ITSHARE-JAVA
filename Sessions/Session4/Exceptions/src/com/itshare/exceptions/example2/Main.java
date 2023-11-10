@@ -23,7 +23,7 @@ public class Main {
 		
 		catch (Exception e) {
 			
-			System.out.println("this is exception by zero");
+			System.out.println(e.getMessage());
 			
 		}
 		

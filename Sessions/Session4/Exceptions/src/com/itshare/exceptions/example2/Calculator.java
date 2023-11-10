@@ -6,7 +6,7 @@ public class Calculator {
 	public int divide(int num1 , int num2) {
 		
 //
-		ArithmeticException ex =new ArithmeticException("This is exception by 0");
+		ArithmeticException ex =new ArithmeticException("This num is exception by 0");
 		
 		if(num2 == 0)
 		throw ex ; 

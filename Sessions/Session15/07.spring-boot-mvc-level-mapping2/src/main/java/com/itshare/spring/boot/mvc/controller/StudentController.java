@@ -33,7 +33,7 @@ public class StudentController{
 	
 
 	@PostMapping(path="/processForm")
-	public String processForm(@ModelAttribute("")) {
+	public String processForm(@ModelAttribute("student") Student student) {
 	
 		//System.err.println(student.getFirstName());
 		//System.err.println(student.getLastName());

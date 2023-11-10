@@ -21,7 +21,7 @@ public class Test {
 //For access
 //		System.out.println(list.get(1));
 //
-		System.out.println("list before remove : "+list);
+//		System.out.println("list before remove : "+list);
 //
 		
 // For remove  		
@@ -42,9 +42,9 @@ public class Test {
 		
 		
 //For each - enhanced for (get all data)		
-//		for (String item : list) {
-//			System.out.println(item);
-//		}
+		for (String item : list) {
+			System.out.println(item);
+		}
 //		
 //		
 		

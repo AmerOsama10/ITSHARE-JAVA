@@ -23,6 +23,11 @@ public class EmployeeController {
 	
 	// add mapping for "/list"
 
+	@GetMapping("/test")
+	public String test() {
+		return "employees/test";
+	}
+	
 	@GetMapping("/list")
 	public String listEmployees(Model theModel) {
 

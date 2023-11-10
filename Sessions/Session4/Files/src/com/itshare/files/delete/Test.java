@@ -10,13 +10,14 @@ public class Test {
 
 		
 		
-		File file = new File("D:\\work space\\Session4\\Files\\src\\com\\itshare\\files\\creation\\ahmed.txt");
 		
 		try {
+			File file = new File("D:\\No.11 [NTFS Local Disk]\\ Root Dir\\book store\\ITShare\\Sessions\\Session4\\Files\\src\\com\\itshare\\files\\creation\\ahmed.txt");
+
 			file.createNewFile();
 			
 			
-			FileWriter f = new FileWriter("D:\\work space\\Session4\\Files\\src\\com\\itshare\\files\\creation\\ahmed.txt");
+			FileWriter f = new FileWriter("D:\\No.11 [NTFS Local Disk]\\ Root Dir\\book store\\ITShare\\Sessions\\Session4\\Files\\src\\com\\itshare\\files\\creation\\ahmed.txt");
 			
 			f.write("asdas");
 			
@@ -29,7 +30,7 @@ public class Test {
 		}
 		
 		
-		file.delete();
+	//	file.delete();
 		
 		
 	}

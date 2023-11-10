@@ -22,6 +22,7 @@ public class Test {
 		
 		queue.remove();
 		queue.remove();
+       // System.out.println(queue.poll()); // Removes and returns the highest-priority element
 
 		System.out.println(queue);
 		
