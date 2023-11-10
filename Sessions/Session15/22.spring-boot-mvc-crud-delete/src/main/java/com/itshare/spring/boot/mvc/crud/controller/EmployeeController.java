@@ -40,9 +40,10 @@ public class EmployeeController {
 	public String showFormForAdd(Model theModel) {
 
 		// create model attribute to bind form data
-		Employee theEmployee = new Employee();
-
-		theModel.addAttribute("employee", theEmployee);
+		Employee emp = new Employee();
+//		emp.setFirstName("mohamed");
+//		emp.setLastName("ahmed");
+		theModel.addAttribute("employee", emp);
 
 		return "employees/employee-form";
 	}
